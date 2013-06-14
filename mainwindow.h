@@ -17,6 +17,13 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void Subscribe(); // выработать Ё÷ѕ
+    void Verify(); // проверить Ё÷ѕ
+    void Inicialization(); // инициализаци€ и генераци€ входных параметров
+    // генерирование входных параметров
+    void generate_m();
 };
 
 #endif // MAINWINDOW_H

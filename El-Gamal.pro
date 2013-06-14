@@ -6,13 +6,24 @@
 
 QT       += core gui
 
-TARGET = El-Gamal
+TARGET = ElGamal
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+         md5.cpp \
+    math.cpp \
+    mainwindow.cpp
 
-HEADERS  += mainwindow.h
+
+
+
+
+HEADERS  += mainwindow.h \
+    md5.h \
+    long.h \
+    crypto.h \
+    functions.h \
+    template_func.h
 
 FORMS    += mainwindow.ui
